@@ -1,0 +1,298 @@
+fileFormatVersion: 2
+guid: 9a04df73fe605404fa379a0e11bcbb59
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: keyboard_Space
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 49
+        width: 92
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bde5056c027a6745a9e4bfda1bf2b69
+      internalID: -64986541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboar_Arrow
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 144
+        width: 140
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13fee9a5a7372f54098bd09092781e92
+      internalID: -313130010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: c6c7c6b54f40e9c44bec92d66847422a
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      keyboar_Arrow: -313130010
+      keyboard sheet 1_1: 1615717903
+      keyboard sheet_0: 1545416433
+      keyboard sheet_36: 695073937
+      keyboard sheet_37: 1935188187
+      keyboard sheet_38: -407927037
+      keyboard sheet_39: -166641104
+      keyboard sheet_40: 386580868
+      keyboard sheet_41: 2023795168
+      keyboard sheet_42: 997608387
+      keyboard sheet_43: 910828672
+      keyboard sheet_44: 882498145
+      keyboard sheet_45: 1280620127
+      keyboard sheet_46: 2074217299
+      keyboard sheet_47: 1004072549
+      keyboard sheet_48: 407123575
+      keyboard sheet_49: -192382962
+      keyboard sheet_50: 1664302426
+      keyboard sheet_51: -1896369114
+      keyboard sheet_52: -2011856868
+      keyboard sheet_53: 2030505972
+      keyboard sheet_54: -1816194902
+      keyboard sheet_55: -1075110009
+      keyboard sheet_56: -233034081
+      keyboard sheet_57: 1709365261
+      keyboard sheet_58: 296951719
+      keyboard sheet_59: 1471205319
+      keyboard sheet_60: -948685662
+      keyboard sheet_61: 971702704
+      keyboard sheet_62: 79594019
+      keyboard sheet_63: 1803676010
+      keyboard sheet_64: 695636990
+      keyboard sheet_65: 1227218165
+      keyboard sheet_66: -1252080561
+      keyboard sheet_67: -725627244
+      keyboard sheet_68: 723625333
+      keyboard sheet_69: -947712662
+      keyboard sheet_70: 1251900766
+      keyboard sheet_71: -341171395
+      keyboard sheet_72: 351587968
+      keyboard sheet_73: -2024248948
+      keyboard sheet_74: -1294914083
+      keyboard sheet_75: 1833624718
+      keyboard sheet_76: -731099706
+      keyboard sheet_77: 1996735108
+      keyboard sheet_78: -397446477
+      keyboard sheet_79: -246328520
+      keyboard sheet_80: -1660357649
+      keyboard sheet_81: -1525484880
+      keyboard sheet_82: -1676795913
+      keyboard sheet_83: 1365116826
+      keyboard sheet_84: -204842150
+      keyboard sheet_85: 1433135364
+      keyboard sheet_87: -1872399999
+      keyboard sheet_88: -534754088
+      keyboard sheet_89: 10151771
+      keyboard sheet_90: 1619598236
+      keyboard sheet_91: 1400685993
+      keyboard sheet_92: 584401236
+      keyboard sheet_93: -240322903
+      keyboard sheet_94: 333782081
+      keyboard_: 534918220
+      keyboard_1: 73391060
+      keyboard_2: 93298004
+      keyboard_3: -566034519
+      keyboard_4: 1701534546
+      keyboard_5: -1912728037
+      keyboard_6: 689199567
+      keyboard_7: -157888673
+      keyboard_8: 593898164
+      keyboard_9: 407262245
+      keyboard_A: -123501658
+      keyboard_B: 1689037822
+      keyboard_C: -2102753888
+      keyboard_D: 417423953
+      keyboard_E: -1833309346
+      keyboard_F: 137729535
+      keyboard_G: -815679147
+      keyboard_H: -138001082
+      keyboard_I: -316512551
+      keyboard_J: 1549221842
+      keyboard_K: 883989532
+      keyboard_L: 1110437822
+      keyboard_M: -1189389693
+      keyboard_N: -1827321092
+      keyboard_O: -423072421
+      keyboard_P: -2026654169
+      keyboard_Q: -680914219
+      keyboard_R: -490083425
+      keyboard_S: 825196903
+      keyboard_Space: -64986541
+      keyboard_T: 1809830329
+      keyboard_U: -323674047
+      keyboard_V: -408844874
+      keyboard_W: -2076775452
+      keyboard_X: 1688294970
+      keyboard_Y: 1683071532
+      keyboard_Z: -566184747
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

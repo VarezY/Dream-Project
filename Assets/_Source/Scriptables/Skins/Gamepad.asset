@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 52d5fc45397b4e989ea565585f60710d, type: 3}
+  m_Name: Gamepad
+  m_EditorClassIdentifier: 
+  actionSprites:
+  - actionEnumName: 0
+    sprite: {fileID: 21300000, guid: aa9df7ff6921b384ebf616b014e5025c, type: 3}
+  - actionEnumName: 1
+    sprite: {fileID: 21300000, guid: 3386e1477c9947b4a9c190a96f55c94e, type: 3}
+  - actionEnumName: 2
+    sprite: {fileID: 21300000, guid: 441c205dc5026d841bccfe62a9c6960c, type: 3}
+  - actionEnumName: 3
+    sprite: {fileID: 21300000, guid: f67ff16cb2e13554eb16cb2cf7cd134e, type: 3}
+  - actionEnumName: 4
+    sprite: {fileID: 21300000, guid: 372240f531c450247987b85d18f41b75, type: 3}
