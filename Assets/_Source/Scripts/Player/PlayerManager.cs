@@ -26,11 +26,24 @@ namespace Varez.Player
             _gameManager = GameManager.Instance;
             
             _gameManager.UIEvents.OnPlayDialogue += OnPlayDialogue;
+            _gameManager.UIEvents.OnExitDialogue += OnExitDialogue;
+        }
+
+
+        private void OnDisable()
+        {
+            _gameManager.UIEvents.OnPlayDialogue -= OnPlayDialogue;
+            _gameManager.UIEvents.OnExitDialogue -= OnExitDialogue;
         }
 
         private void OnPlayDialogue(string arg1, string arg2)
         {
             dialogueCamera.gameObject.SetActive(true);
+        }
+
+        private void OnExitDialogue()
+        {
+            dialogueCamera.gameObject.SetActive(false);
         }
     }
 }

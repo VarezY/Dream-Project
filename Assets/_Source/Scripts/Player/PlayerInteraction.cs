@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
 using Varez.Interact;
 
 namespace Varez.Player
@@ -50,6 +51,17 @@ namespace Varez.Player
             }
         }
 
+        public void OnInteract(InputAction.CallbackContext context)
+        {
+            if (context.performed)
+            {
+                if (!_currentBestTarget)
+                    return;
+
+                _currentBestTarget.OnInteract();    
+            }
+        }
+        
         public void OnInteract()
         {
             if (!_currentBestTarget)

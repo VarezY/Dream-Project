@@ -18,7 +18,7 @@ namespace Varez.UI.Dialogue
         [ContextMenu("Show Dialogue")]
         public void StartDialogue()
         {
-            _gameManager.UIEvents.OnPlayDialogue?.Invoke(titleDialogue, textDialogue);
+            // _gameManager.UIEvents.OnPlayDialogue?.Invoke(titleDialogue, textDialogue);
         }
     }
 }

@@ -225,22 +225,11 @@
             "bindings": [
                 {
                     "name": "",
-                    "id": "2f856290-f7e9-4dc8-b20c-dfd2381baa02",
-                    "path": "<Keyboard>/f",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Skip Dialogue",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
                     "id": "5782e418-af1b-46a2-ae2e-08dde246f1ab",
                     "path": "<Keyboard>/space",
                     "interactions": "",
                     "processors": "",
-                    "groups": "",
+                    "groups": ";PC",
                     "action": "Skip Dialogue",
                     "isComposite": false,
                     "isPartOfComposite": false

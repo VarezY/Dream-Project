@@ -14,5 +14,7 @@ namespace Varez.UI
         
         // Dialogue
         public Action<string, string> OnPlayDialogue;
+        public Action OnNextDialogue;
+        public Action OnExitDialogue;
     }
 }

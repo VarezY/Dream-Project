@@ -18,6 +18,23 @@ namespace Varez.UI.Dialogue
         private void Start()
         {
             GameManager.Instance.UIEvents.OnPlayDialogue += DisplayDialogue;
+            GameManager.Instance.UIEvents.OnExitDialogue += OnExitDialogue;
+            typewriter.onTextShowed.AddListener(NextDialogue);
+        }
+
+        private void OnExitDialogue()
+        {
+            dialogueBox.SetActive(false);
+        }
+
+        private void NextDialogue()
+        {
+            
+        }
+
+        private void OnDisable()
+        {
+            GameManager.Instance.UIEvents.OnPlayDialogue -= DisplayDialogue;
         }
 
         public void SingleDialogue()
@@ -30,6 +47,7 @@ namespace Varez.UI.Dialogue
             dialogueBox.SetActive(true);
             titleDialogue.text = title;
             typewriter.ShowText(text);
+            // typewriter.onTextShowed
         }
 
         public void SkipTextDialogue()

@@ -1,0 +1,3 @@
+- Hello, This is an Example of INK implementation on Unity
+- Fuck Off now!
+-> END

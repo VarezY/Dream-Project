@@ -43,6 +43,11 @@ namespace Varez.Player
             _gameManager.PlayerEvent.OnPlayerStanding += OnPlayerStanding;
         }
 
+        private void OnDisable()
+        {
+            _gameManager.PlayerEvent.OnPlayerStanding -= OnPlayerStanding; 
+        }
+
         private void OnPlayerStanding()
         {
             _playerInput.enabled = true;
@@ -114,13 +119,17 @@ namespace Varez.Player
 
         private void Move()
         {
+            Vector2 moveValue = _playerManager.Input.moveValue;
+            bool isWalking = _playerManager.Input.isWalking;
+            if (!isWalking) return;
+            
             float targetSpeed = _playerManager.Input.isSprint ? sprintSpeed : moveSpeed;
 
-            if (_playerManager.Input.moveValue == Vector2.zero) targetSpeed = 0.0f;
+            if (moveValue == Vector2.zero) targetSpeed = 0.0f;
             
-            Vector3 inputDirection = new Vector3(_playerManager.Input.moveValue.x, 0.0f, _playerManager.Input.moveValue.y).normalized;
+            Vector3 inputDirection = new Vector3(moveValue.x, 0.0f, moveValue.y).normalized;
             
-            if (_playerManager.Input.moveValue != Vector2.zero)
+            if (moveValue != Vector2.zero)
             {
                 _targetRotation = Mathf.Atan2(inputDirection.x, inputDirection.z) * Mathf.Rad2Deg +
                                   _mainCamera.transform.eulerAngles.y;
